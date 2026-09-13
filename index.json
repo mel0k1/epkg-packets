@@ -24,6 +24,15 @@
       "sha256": "22d0ca3fc413f357b4edd97ca2365e5ef794b2093dad117f133ece3d9007d9f5",
       "size": 513,
       "deps": []
-    }
+    {
+  "pkgname": "tcc",
+  "pkgver": "0.9.28rc-r0",
+  "pkgdesc": "TinyCC - small, fast C compiler (mob 0fb5430, 2026-09-04)",
+  "arch": "x86_64",
+  "filename": "tcc-0.9.28rc-r0.epkg",
+  "sha256": "da080581cae098f69fd2e9725a8224297f0c7c91950519ac9eacdd673e44af3f",
+  "size": 576541,
+  "deps": []
+}
   ]
 }
