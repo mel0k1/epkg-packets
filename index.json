@@ -1,0 +1,29 @@
+{
+  "epkg_index": 1,
+  "repo": "epkg-packets",
+  "generated_by": "epkg-tools mkepkg/index",
+  "packages": [
+    {
+      "pkgname": "bar",
+      "pkgver": "2.1",
+      "pkgdesc": "Demo package bar (depends on foo) for the epkg-packets repository",
+      "arch": "any",
+      "filename": "bar-2.1.epkg",
+      "sha256": "cbeb82e3830e3e29c357d8c1aa491ce4e31258e7a55315b8f09b8396c5ba0e45",
+      "size": 480,
+      "deps": [
+        "foo"
+      ]
+    },
+    {
+      "pkgname": "foo",
+      "pkgver": "1.0",
+      "pkgdesc": "Demo package foo for the epkg-packets repository",
+      "arch": "any",
+      "filename": "foo-1.0.epkg",
+      "sha256": "22d0ca3fc413f357b4edd97ca2365e5ef794b2093dad117f133ece3d9007d9f5",
+      "size": 513,
+      "deps": []
+    }
+  ]
+}
